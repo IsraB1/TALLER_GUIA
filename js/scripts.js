@@ -32,3 +32,9 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+$(function(){
+    $(".dropdown-toggle").click(function(){
+        $(this).dropdown('toggle');
+    });
+});
